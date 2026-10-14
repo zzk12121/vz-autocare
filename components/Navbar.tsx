@@ -62,7 +62,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <a href="#contact" className="btn btn-gold hidden lg:inline-flex">
-          Book Now
+          Check Availability
         </a>
 
         {/* Mobile toggle */}
@@ -121,7 +121,7 @@ export default function Navbar() {
               transition={{ delay: 0.08 * NAV_LINKS.length + 0.1 }}
               className="btn btn-gold mt-4"
             >
-              Book Now
+              Check Availability
             </motion.a>
           </motion.div>
         )}
