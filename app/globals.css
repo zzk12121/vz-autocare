@@ -28,6 +28,11 @@
   --shadow-card: 0 24px 60px -24px rgba(0, 0, 0, 0.9);
 }
 
+/* Keep section headings below the fixed navigation. */
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
 /* ---- Base ---- */
 :root {
   color-scheme: dark;

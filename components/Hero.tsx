@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <Image
           src={IMAGES.hero}
-          alt="Premium detailed vehicle"
+          alt="Car on the road — decorative stock photograph"
           fill
           priority
           sizes="100vw"
@@ -42,7 +42,7 @@ export default function Hero() {
           animate="show"
           className="eyebrow mb-6"
         >
-          Detailing Studio · Brighton &amp; Hove
+          Mobile Car Care · Brighton &amp; Hove
         </motion.p>
 
         <motion.h1
@@ -52,8 +52,8 @@ export default function Hero() {
           animate="show"
           className="heading-lux max-w-4xl text-[2.75rem] leading-[1.04] sm:text-6xl lg:text-7xl"
         >
-          Premium Automotive Care
-          <span className="block text-gold">In Brighton &amp; Hove</span>
+          A cleaner car.
+          <span className="block text-gold">At your doorstep.</span>
         </motion.h1>
 
         <motion.p
@@ -63,8 +63,8 @@ export default function Hero() {
           animate="show"
           className="mt-7 max-w-xl text-base leading-relaxed text-cream/75 sm:text-lg"
         >
-          Precision detailing, paint correction and protection services designed
-          to restore and protect your vehicle.
+          Mobile interior and exterior cleaning in Brighton &amp; Hove.
+          We come to you, so you can get on with your day.
         </motion.p>
 
         <motion.div
@@ -75,7 +75,7 @@ export default function Hero() {
           className="mt-10 flex flex-col gap-4 sm:flex-row"
         >
           <a href="#contact" className="btn btn-gold">
-            Book Your Detail
+            Check Availability
           </a>
           <a href="#services" className="btn btn-ghost">
             View Services

@@ -14,21 +14,21 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteUrl = "https://vzautocare.co.uk";
+const siteUrl = "https://vzautocare.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Vz Autocare — Premium Car Detailing in Brighton & Hove",
+    default: "Vz Autocare — Mobile Car Care in Brighton & Hove",
     template: "%s · Vz Autocare",
   },
   description:
-    "Premium automotive detailing, paint correction and ceramic coating in Brighton & Hove. Precision care designed to restore and protect your vehicle.",
+    "Mobile interior and exterior car cleaning in Brighton & Hove. A local service that comes to you.",
   keywords: [
     "car detailing Brighton",
-    "paint correction Hove",
-    "ceramic coating Brighton & Hove",
-    "premium valeting Sussex",
+    "mobile car cleaning Hove",
+    "mobile valeting Brighton & Hove",
+    "interior car cleaning Brighton",
     "Vz Autocare",
   ],
   authors: [{ name: "Vz Autocare" }],
@@ -37,15 +37,15 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: siteUrl,
     siteName: "Vz Autocare",
-    title: "Vz Autocare — Premium Car Detailing in Brighton & Hove",
+    title: "Vz Autocare — Mobile Car Care in Brighton & Hove",
     description:
-      "Precision detailing, paint correction and protection services designed to restore and protect your vehicle.",
+      "Mobile interior and exterior car cleaning in Brighton & Hove. We come to you.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vz Autocare — Premium Car Detailing in Brighton & Hove",
+    title: "Vz Autocare — Mobile Car Care in Brighton & Hove",
     description:
-      "Precision detailing, paint correction and protection for your vehicle.",
+      "Mobile car care in Brighton & Hove. We come to you.",
   },
   robots: { index: true, follow: true },
 };
